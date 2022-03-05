@@ -1,0 +1,10 @@
+local loopingPart = game.Workspace.LoopingPart
+
+while true do
+	loopingPart.BrickColor = BrickColor.new(23)
+	wait(3)
+	loopingPart.BrickColor = BrickColor.new(24)
+	wait(3)
+	loopingPart.BrickColor = BrickColor.new(23)
+	wait(3)
+end
